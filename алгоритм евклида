@@ -1,0 +1,15 @@
+a = int(input())
+b = int(input())
+
+x = a*b
+
+while a!=0 and b!=0
+    if a>=b:
+        a = a%b
+    else:
+        b = b%a
+    NOD = a + b
+print(NOD)
+NOK = x/NOD
+print(NOK)
+
